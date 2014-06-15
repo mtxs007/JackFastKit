@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABF71145194E04C9001E3ABD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF71144194E04C9001E3ABD /* Foundation.framework */; };
+		ABF71147194E04C9001E3ABD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF71146194E04C9001E3ABD /* CoreGraphics.framework */; };
+		ABF71149194E04C9001E3ABD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF71148194E04C9001E3ABD /* UIKit.framework */; };
+		ABF7114F194E04C9001E3ABD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABF7114D194E04C9001E3ABD /* InfoPlist.strings */; };
+		ABF71151194E04C9001E3ABD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF71150194E04C9001E3ABD /* main.m */; };
+		ABF71155194E04C9001E3ABD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF71154194E04C9001E3ABD /* AppDelegate.m */; };
+		ABF71157194E04CA001E3ABD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF71156194E04CA001E3ABD /* Images.xcassets */; };
+		ABF7115E194E04CA001E3ABD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF7115D194E04CA001E3ABD /* XCTest.framework */; };
+		ABF7115F194E04CA001E3ABD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF71144194E04C9001E3ABD /* Foundation.framework */; };
+		ABF71160194E04CA001E3ABD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF71148194E04C9001E3ABD /* UIKit.framework */; };
+		ABF71168194E04CA001E3ABD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABF71166194E04CA001E3ABD /* InfoPlist.strings */; };
+		ABF7116A194E04CA001E3ABD /* JackFastKitExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF71169194E04CA001E3ABD /* JackFastKitExampleTests.m */; };
+		ABF7117A194E067C001E3ABD /* JackFastKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF71179194E067C001E3ABD /* JackFastKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABF71161194E04CA001E3ABD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABF71139194E04C9001E3ABD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABF71140194E04C9001E3ABD;
+			remoteInfo = JackFastKitExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABF71141194E04C9001E3ABD /* JackFastKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JackFastKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF71144194E04C9001E3ABD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABF71146194E04C9001E3ABD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABF71148194E04C9001E3ABD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABF7114C194E04C9001E3ABD /* JackFastKitExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JackFastKitExample-Info.plist"; sourceTree = "<group>"; };
+		ABF7114E194E04C9001E3ABD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABF71150194E04C9001E3ABD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABF71152194E04C9001E3ABD /* JackFastKitExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JackFastKitExample-Prefix.pch"; sourceTree = "<group>"; };
+		ABF71153194E04C9001E3ABD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABF71154194E04C9001E3ABD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABF71156194E04CA001E3ABD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABF7115C194E04CA001E3ABD /* JackFastKitExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JackFastKitExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF7115D194E04CA001E3ABD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ABF71165194E04CA001E3ABD /* JackFastKitExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JackFastKitExampleTests-Info.plist"; sourceTree = "<group>"; };
+		ABF71167194E04CA001E3ABD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABF71169194E04CA001E3ABD /* JackFastKitExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JackFastKitExampleTests.m; sourceTree = "<group>"; };
+		ABF71179194E067C001E3ABD /* JackFastKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JackFastKit.framework; path = "../../../../../../../Library/Developer/Xcode/DerivedData/JackFastKitWorkspace-gpdmgxtdybgqkeetnmdgqnlcooji/Build/Products/Release-iphoneos/JackFastKit.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABF7113E194E04C9001E3ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF7117A194E067C001E3ABD /* JackFastKit.framework in Frameworks */,
+				ABF71147194E04C9001E3ABD /* CoreGraphics.framework in Frameworks */,
+				ABF71149194E04C9001E3ABD /* UIKit.framework in Frameworks */,
+				ABF71145194E04C9001E3ABD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF71159194E04CA001E3ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF7115E194E04CA001E3ABD /* XCTest.framework in Frameworks */,
+				ABF71160194E04CA001E3ABD /* UIKit.framework in Frameworks */,
+				ABF7115F194E04CA001E3ABD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABF71138194E04C9001E3ABD = {
+			isa = PBXGroup;
+			children = (
+				ABF7114A194E04C9001E3ABD /* JackFastKitExample */,
+				ABF71163194E04CA001E3ABD /* JackFastKitExampleTests */,
+				ABF71143194E04C9001E3ABD /* Frameworks */,
+				ABF71142194E04C9001E3ABD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABF71142194E04C9001E3ABD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABF71141194E04C9001E3ABD /* JackFastKitExample.app */,
+				ABF7115C194E04CA001E3ABD /* JackFastKitExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABF71143194E04C9001E3ABD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABF71144194E04C9001E3ABD /* Foundation.framework */,
+				ABF71146194E04C9001E3ABD /* CoreGraphics.framework */,
+				ABF71148194E04C9001E3ABD /* UIKit.framework */,
+				ABF7115D194E04CA001E3ABD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABF7114A194E04C9001E3ABD /* JackFastKitExample */ = {
+			isa = PBXGroup;
+			children = (
+				ABF71178194E0673001E3ABD /* Vendor */,
+				ABF71153194E04C9001E3ABD /* AppDelegate.h */,
+				ABF71154194E04C9001E3ABD /* AppDelegate.m */,
+				ABF71156194E04CA001E3ABD /* Images.xcassets */,
+				ABF7114B194E04C9001E3ABD /* Supporting Files */,
+			);
+			path = JackFastKitExample;
+			sourceTree = "<group>";
+		};
+		ABF7114B194E04C9001E3ABD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABF7114C194E04C9001E3ABD /* JackFastKitExample-Info.plist */,
+				ABF7114D194E04C9001E3ABD /* InfoPlist.strings */,
+				ABF71150194E04C9001E3ABD /* main.m */,
+				ABF71152194E04C9001E3ABD /* JackFastKitExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABF71163194E04CA001E3ABD /* JackFastKitExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF71169194E04CA001E3ABD /* JackFastKitExampleTests.m */,
+				ABF71164194E04CA001E3ABD /* Supporting Files */,
+			);
+			path = JackFastKitExampleTests;
+			sourceTree = "<group>";
+		};
+		ABF71164194E04CA001E3ABD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABF71165194E04CA001E3ABD /* JackFastKitExampleTests-Info.plist */,
+				ABF71166194E04CA001E3ABD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABF71178194E0673001E3ABD /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				ABF71179194E067C001E3ABD /* JackFastKit.framework */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABF71140194E04C9001E3ABD /* JackFastKitExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF7116D194E04CA001E3ABD /* Build configuration list for PBXNativeTarget "JackFastKitExample" */;
+			buildPhases = (
+				ABF7113D194E04C9001E3ABD /* Sources */,
+				ABF7113E194E04C9001E3ABD /* Frameworks */,
+				ABF7113F194E04C9001E3ABD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JackFastKitExample;
+			productName = JackFastKitExample;
+			productReference = ABF71141194E04C9001E3ABD /* JackFastKitExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABF7115B194E04CA001E3ABD /* JackFastKitExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF71170194E04CA001E3ABD /* Build configuration list for PBXNativeTarget "JackFastKitExampleTests" */;
+			buildPhases = (
+				ABF71158194E04CA001E3ABD /* Sources */,
+				ABF71159194E04CA001E3ABD /* Frameworks */,
+				ABF7115A194E04CA001E3ABD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABF71162194E04CA001E3ABD /* PBXTargetDependency */,
+			);
+			name = JackFastKitExampleTests;
+			productName = JackFastKitExampleTests;
+			productReference = ABF7115C194E04CA001E3ABD /* JackFastKitExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABF71139194E04C9001E3ABD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "曾宪华 QQ群: (142557668) QQ:543413507  Gmail:xhzengAIB@gmail.com";
+				TargetAttributes = {
+					ABF7115B194E04CA001E3ABD = {
+						TestTargetID = ABF71140194E04C9001E3ABD;
+					};
+				};
+			};
+			buildConfigurationList = ABF7113C194E04C9001E3ABD /* Build configuration list for PBXProject "JackFastKitExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABF71138194E04C9001E3ABD;
+			productRefGroup = ABF71142194E04C9001E3ABD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABF71140194E04C9001E3ABD /* JackFastKitExample */,
+				ABF7115B194E04CA001E3ABD /* JackFastKitExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABF7113F194E04C9001E3ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF7114F194E04C9001E3ABD /* InfoPlist.strings in Resources */,
+				ABF71157194E04CA001E3ABD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF7115A194E04CA001E3ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF71168194E04CA001E3ABD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABF7113D194E04C9001E3ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF71155194E04C9001E3ABD /* AppDelegate.m in Sources */,
+				ABF71151194E04C9001E3ABD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF71158194E04CA001E3ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF7116A194E04CA001E3ABD /* JackFastKitExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABF71162194E04CA001E3ABD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABF71140194E04C9001E3ABD /* JackFastKitExample */;
+			targetProxy = ABF71161194E04CA001E3ABD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABF7114D194E04C9001E3ABD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF7114E194E04C9001E3ABD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABF71166194E04CA001E3ABD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF71167194E04CA001E3ABD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABF7116B194E04CA001E3ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABF7116C194E04CA001E3ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABF7116E194E04CA001E3ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/JackFastKitWorkspace-gpdmgxtdybgqkeetnmdgqnlcooji/Build/Products/Release-iphoneos",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JackFastKitExample/JackFastKitExample-Prefix.pch";
+				INFOPLIST_FILE = "JackFastKitExample/JackFastKitExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABF7116F194E04CA001E3ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/JackFastKitWorkspace-gpdmgxtdybgqkeetnmdgqnlcooji/Build/Products/Release-iphoneos",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JackFastKitExample/JackFastKitExample-Prefix.pch";
+				INFOPLIST_FILE = "JackFastKitExample/JackFastKitExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ABF71171194E04CA001E3ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JackFastKitExample.app/JackFastKitExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JackFastKitExample/JackFastKitExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JackFastKitExampleTests/JackFastKitExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ABF71172194E04CA001E3ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JackFastKitExample.app/JackFastKitExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JackFastKitExample/JackFastKitExample-Prefix.pch";
+				INFOPLIST_FILE = "JackFastKitExampleTests/JackFastKitExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABF7113C194E04C9001E3ABD /* Build configuration list for PBXProject "JackFastKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF7116B194E04CA001E3ABD /* Debug */,
+				ABF7116C194E04CA001E3ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF7116D194E04CA001E3ABD /* Build configuration list for PBXNativeTarget "JackFastKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF7116E194E04CA001E3ABD /* Debug */,
+				ABF7116F194E04CA001E3ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF71170194E04CA001E3ABD /* Build configuration list for PBXNativeTarget "JackFastKitExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF71171194E04CA001E3ABD /* Debug */,
+				ABF71172194E04CA001E3ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABF71139194E04C9001E3ABD /* Project object */;
+}
